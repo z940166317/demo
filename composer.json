@@ -1,0 +1,25 @@
+{
+    "name": "auth/demo",
+    "description": "",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Aaronz",
+            "email": "940166317@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "xlauth\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
